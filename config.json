@@ -1,6 +1,6 @@
 {
   "channel_type": "wx",
-  "model": "llamafamily/llama3-chinese-8b-instruct",
+  "model": "llama3",
   "open_ai_api_key": "1b13cffcfebc4f05ae380a6c8054248b",
   "claude_api_key": "YOUR API KEY",
   "text_to_image": "dall-e-2",
@@ -50,5 +50,6 @@
   "azure_api_version": "2023-05-15",
   "open_ai_api_base": "https://yao.openai.azure.com/",
   "ollama_ai_api_key": "ollama",
-  "ollama_ai_api_base": "http://localhost:11434/v1"
+  "ollama_ai_api_base": "http://localhost:11434/v1",
+  "use_ollama": true
 }

@@ -167,6 +167,7 @@ available_setting = {
     # OLLAMA 平台配置
     "ollama_ai_api_key": "",
     "ollama_ai_api_base": "http://localhost:11434/v1",
+    "use_ollama": False,
 }
 
 
