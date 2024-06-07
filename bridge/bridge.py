@@ -52,6 +52,9 @@ class Bridge(object):
             if not conf().get("text_to_voice") or conf().get("text_to_voice") in ["openai", const.TTS_1, const.TTS_1_HD]:
                 self.btype["text_to_voice"] = const.LINKAI
 
+        if const.OLLAMA_AI in model_type or conf().get("use_ollama"):
+            self.btype["chat"] = const.OLLAMA_AI
+
         self.bots = {}
         self.chat_bots = {}
 
