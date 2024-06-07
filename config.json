@@ -1,6 +1,6 @@
 {
   "channel_type": "wx",
-  "model": "llamafamily/llama3-chinese-8b-instruct",
+  "model": "qwen2",
   "open_ai_api_key": "1b13cffcfebc4f05ae380a6c8054248b",
   "claude_api_key": "YOUR API KEY",
   "text_to_image": "dall-e-2",
